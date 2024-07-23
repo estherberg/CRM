@@ -25,7 +25,7 @@ const formatDate = (isoString) => {
   return date.toLocaleDateString('fr-FR');  // ou 'en-US' selon le format local que vous préférez
 }
 
-const Tables = () => {
+const Clients = () => {
   const history = useHistory();
   const [clients, setClients] = useState([]);
   const [totalClients, setTotalClients] = useState(0);
@@ -506,4 +506,4 @@ const Tables = () => {
   );
 };
 
-export default Tables;
+export default Clients;

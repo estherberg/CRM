@@ -51,7 +51,7 @@ const Login = props => {
                             <small>Se connecter avec</small>
                         </div>
                         <div className="btn-wrapper text-center">
-                            {/* <Button
+                            <Button
                                 className="btn-neutral btn-icon"
                                 color="default"
                                 href="#pablo"
@@ -64,37 +64,9 @@ const Login = props => {
                     />
                   </span>
                                 <span className="btn-inner--text">Google</span>
-                            </Button> */}
-                            // Avant
-<Button
-    className="btn-neutral btn-icon"
-    color="default"
-    href="#pablo"
-    onClick={handleClick}
->
-    <span className="btn-inner--icon">
-        <img
-            alt="..."
-            src={require("assets/img/icons/common/google.svg").default}
-        />
-    </span>
-    <span className="btn-inner--text">Google</span>
-</Button>
+                            </Button>
 
-// Après
-<Button
-    className="btn-neutral btn-icon"
-    color="default"
-    onClick={() => window.location.href = '/auth/google'}
->
-    <span className="btn-inner--icon">
-        <img
-            alt="..."
-            src={require("assets/img/icons/common/google.svg").default}
-        />
-    </span>
-    <span className="btn-inner--text">Google</span>
-</Button>
+
 
                         </div>
                     </CardHeader>
